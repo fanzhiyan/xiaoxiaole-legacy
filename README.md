@@ -22,6 +22,18 @@
 | 消息中心 | 平台公告、互动通知、系统消息 |
 | 个人中心 | 等级体系、头像/性别/认证标识、地址管理、反馈、协议 |
 
+## 界面预览
+
+| 首页（金刚区+信息流） | 社区墙消息中心 |
+| --- | --- |
+| ![home](docs/screenshots/04-home.png) | ![message](docs/screenshots/02-message.png) |
+
+| 跑腿接单大厅 | 个人中心 |
+| --- | --- |
+| ![errand](docs/screenshots/03-errand.png) | ![mine](docs/screenshots/01-mine.png) |
+
+> 截图中的学校名称、用户昵称与帖子内容已做脱敏处理。
+
 ## 技术栈
 
 - **框架**：uni-app（Vue3 `<script setup>`）+ Vite
