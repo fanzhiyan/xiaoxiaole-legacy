@@ -1,0 +1,451 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "needLogin": false,
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/index/my",
+      "needLogin": false,
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/index/hot",
+      "needLogin": false,
+      "style": {
+        "navigationBarTitleText": "多校热门"
+      }
+    },
+    {
+      "path": "pages/errand/errand",
+      "needLogin": false,
+      "style": {
+        "navigationBarTitleText": "跑腿"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/errand/errand-auth",
+      "style": {
+        "navigationBarTitleText": "跑腿实名"
+      }
+    },
+    {
+      "path": "pages/errand/receiving-workstation",
+      "style": {
+        "navigationBarTitleText": "接单工作台"
+      }
+    },
+    {
+      "path": "pages/errand/my-errand",
+      "style": {
+        "navigationBarTitleText": "我的订单"
+      }
+    },
+    {
+      "path": "pages/message/message-platform",
+      "style": {
+        "navigationBarTitleText": "平台消息"
+      }
+    },
+    {
+      "path": "pages/message/message-info",
+      "style": {
+        "navigationBarTitleText": "详情"
+      }
+    },
+    {
+      "path": "pages/message/message-list",
+      "style": {
+        "navigationBarTitleText": "消息列表"
+      }
+    },
+    {
+      "path": "pages/index/indexsearch",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/index/searchRel",
+      "style": {
+        "navigationBarTitleText": "搜索结果"
+      }
+    },
+    {
+      "path": "pages/index/dayHot",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/errand/search",
+      "style": {
+        "navigationBarTitleText": "跑腿搜索"
+      }
+    },
+    {
+      "path": "pages/errand/earnest",
+      "style": {
+        "navigationBarTitleText": "保证金"
+      }
+    },
+    {
+      "path": "pages/errand/withdrawal-deposit",
+      "style": {
+        "navigationBarTitleText": "保证金提现"
+      }
+    },
+    {
+      "path": "pages/promotion/promotion",
+      "style": {
+        "navigationBarTitleText": "推广"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pages/management",
+      "pages": [
+        {
+          "path": "management-info",
+          "style": {
+            "navigationBarTitleText": "详情"
+          }
+        },
+        {
+          "path": "create-dynamic",
+          "style": {
+            "navigationBarTitleText": "发布帖子"
+          }
+        },
+        {
+          "path": "create-group",
+          "style": {
+            "navigationBarTitleText": "创建组局"
+          }
+        },
+        {
+          "path": "create-runner",
+          "style": {
+            "navigationBarTitleText": "发布跑腿"
+          }
+        },
+        {
+          "path": "create-prom",
+          "style": {
+            "navigationBarTitleText": "发布推广页"
+          }
+        },
+        {
+          "path": "errand-info",
+          "style": {
+            "navigationBarTitleText": "跑腿详情",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "group-info",
+          "style": {
+            "navigationBarTitleText": "组局详情"
+          }
+        },
+        {
+          "path": "comment",
+          "style": {
+            "navigationBarTitleText": "我的消息"
+          }
+        },
+        {
+          "path": "my-management",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "我的发布"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/my",
+      "pages": [
+        {
+          "path": "user",
+          "style": {
+            "navigationBarTitleText": "用户个人中心"
+          }
+        },
+        {
+          "path": "address-list",
+          "style": {
+            "navigationBarTitleText": "地址管理"
+          }
+        },
+        {
+          "path": "add-address",
+          "style": {
+            "navigationBarTitleText": "添加地址"
+          }
+        },
+        {
+          "path": "wallet",
+          "style": {
+            "navigationBarTitleText": "钱包"
+          }
+        },
+        {
+          "path": "wallet-deposit",
+          "style": {
+            "navigationBarTitleText": "提现"
+          }
+        },
+        {
+          "path": "withdraw-history",
+          "style": {
+            "navigationBarTitleText": "提现明细"
+          }
+        },
+        {
+          "path": "wallet-history",
+          "style": {
+            "navigationBarTitleText": "余额明细"
+          }
+        },
+        {
+          "path": "bind-qrcode",
+          "style": {
+            "navigationBarTitleText": "提现账户"
+          }
+        },
+        {
+          "path": "level",
+          "style": {
+            "navigationBarTitleText": "level-info"
+          }
+        },
+        {
+          "path": "my-comment",
+          "style": {
+            "navigationBarTitleText": "我的评论"
+          }
+        },
+        {
+          "path": "deposit-history",
+          "style": {
+            "navigationBarTitleText": "保证金记录"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/setting",
+      "pages": [
+        {
+          "path": "setting",
+          "style": {
+            "navigationBarTitleText": "设置"
+          }
+        },
+        {
+          "path": "agreement",
+          "style": {
+            "navigationBarTitleText": "协议"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/public",
+      "pages": [
+        {
+          "path": "result",
+          "style": {
+            "navigationBarTitleText": "结果页"
+          }
+        },
+        {
+          "path": "feedback",
+          "style": {
+            "navigationBarTitleText": "意见反馈"
+          }
+        },
+        {
+          "path": "feedback-list",
+          "style": {
+            "navigationBarTitleText": "反馈记录"
+          }
+        },
+        {
+          "path": "problem",
+          "style": {
+            "navigationBarTitleText": "常见问题"
+          }
+        },
+        {
+          "path": "problem-info",
+          "style": {
+            "navigationBarTitleText": "问题详情"
+          }
+        },
+        {
+          "path": "switch",
+          "style": {
+            "navigationBarTitleText": "切换圈子"
+          }
+        },
+        {
+          "path": "my-category",
+          "style": {
+            "navigationBarTitleText": "我加入的"
+          }
+        },
+        {
+          "path": "create-circle",
+          "style": {
+            "navigationBarTitleText": "创建分类"
+          }
+        },
+        {
+          "path": "join-circle",
+          "style": {
+            "navigationBarTitleText": "答题认证"
+          }
+        },
+        {
+          "path": "paid-promotion",
+          "style": {
+            "navigationBarTitleText": "付费推广"
+          }
+        },
+        {
+          "path": "qrcode-group",
+          "style": {
+            "navigationBarTitleText": "扫码进群"
+          }
+        },
+        {
+          "path": "hot-today",
+          "style": {
+            "navigationBarTitleText": "今日热门"
+          }
+        },
+        {
+          "path": "notice",
+          "style": {
+            "navigationBarTitleText": "公告"
+          }
+        },
+        {
+          "path": "notice-info",
+          "style": {
+            "navigationBarTitleText": "详情"
+          }
+        },
+        {
+          "path": "circle-friend",
+          "style": {
+            "navigationBarTitleText": "同圈好友"
+          }
+        },
+        {
+          "path": "real-auth",
+          "style": {
+            "navigationBarTitleText": "实名认证"
+          }
+        },
+        {
+          "path": "user-home",
+          "style": {
+            "navigationBarTitleText": "用户主页"
+          }
+        },
+        {
+          "path": "search-topic",
+          "style": {
+            "navigationBarTitleText": "搜索"
+          }
+        },
+        {
+          "path": "search/search",
+          "style": {
+            "navigationBarTitleText": "搜索"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home-active.png",
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "size": "20",
+        "activeColor": "#094CCE",
+        "color": "#8B8F98"
+      },
+      {
+        "iconPath": "/static/tabbar/errand.png",
+        "selectedIconPath": "/static/tabbar/errand-active.png",
+        "text": "跑腿",
+        "pagePath": "pages/errand/errand",
+        "size": "20",
+        "activeColor": "#094CCE",
+        "color": "#8B8F98"
+      },
+      {
+        "iconPath": "/static/tabbar/fb_ac.png",
+        "selectedIconPath": "/static/tabbar/fb_ac.png",
+        "text": "发布",
+        "pagePath": "pages/index/hot",
+        "size": "20",
+        "activeColor": "#094CCE",
+        "color": "#8B8F98"
+      },
+      {
+        "iconPath": "/static/tabbar/message.png",
+        "selectedIconPath": "/static/tabbar/message-active.png",
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "size": "20",
+        "activeColor": "#094CCE",
+        "color": "#8B8F98"
+      },
+      {
+        "iconPath": "/static/tabbar/user.png",
+        "selectedIconPath": "/static/tabbar/user-active.png",
+        "text": "我的",
+        "pagePath": "pages/index/my",
+        "size": "20",
+        "activeColor": "#094CCE",
+        "color": "#8B8F98"
+      }
+    ]
+  },
+  "easycom": {
+    "custom": {
+      "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^y-(.*)": "/shiba/components/y-$1/y-$1.vue"
+    }
+  },
+  "uniIdRouter": {}
+}

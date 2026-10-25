@@ -1,0 +1,197 @@
+.lp view {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  position: absolute;
+  animation-name: move;
+  animation-timing-function: cubic-bezier(0.4, 0, 1, 0.8);
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  top: calc(50% - 20px);
+  left: 50%;
+  transform-origin: -20px center;
+}
+
+.lp view:nth-child(1) {
+  background: #a1c4fd;
+  animation-delay: -0.5s;
+  opacity: 0;
+}
+
+.lp view:nth-child(2) {
+  background: #c2e9fb;
+  animation-delay: -1s;
+  opacity: 0;
+}
+
+.lp view:nth-child(3) {
+  background: #cfd9df;
+  animation-delay: -1.5s;
+  opacity: 0;
+}
+
+.lp view:nth-child(4) {
+  background: #e2ebf0;
+  animation-delay: -2s;
+  opacity: 0;
+}
+
+.lp view:nth-child(5) {
+  background: #4facfe;
+  animation-delay: -2.5s;
+  opacity: 0;
+}
+
+.lp view:nth-child(6) {
+  background: #00f2fe;
+  animation-delay: -3s;
+  opacity: 0;
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1) rotate(0deg) translate3d(0, 0, 1px);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    z-index: 10;
+    transform: scale(0) rotate(360deg) translate3d(0, 0, 1px);
+  }
+}
+
+// --------------------------------------
+
+// 转盘滚动动画样式
+
+.fk {
+  @keyframes configure-clockwise {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
+  @keyframes configure-xclockwise {
+    0% {
+      transform: rotate(45deg);
+    }
+    25% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(-135deg);
+    }
+    75% {
+      transform: rotate(-215deg);
+    }
+    100% {
+      transform: rotate(-305deg);
+    }
+  }
+
+  .spinner-box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .configure-border-1 {
+    width: 115px;
+    height: 115px;
+    padding: 3px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
+  }
+
+  .configure-border-2 {
+    width: 115px;
+    height: 115px;
+    padding: 3px;
+    left: -115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transform: rotate(45deg);
+    animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
+  }
+
+  .configure-core {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+}
+
+// --------------------------------------------------
+
+// 加载器样式
+.loader {
+  display: block;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px; // 150px / 2 = 75px
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: spin 2s linear infinite;
+
+  // 内层旋转圈样式
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+  }
+
+  &::before {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    animation: spin 3s linear infinite;
+  }
+
+  &::after {
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    animation: spin 1.5s linear infinite;
+  }
+}
+
+// 加载器旋转动画关键帧
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

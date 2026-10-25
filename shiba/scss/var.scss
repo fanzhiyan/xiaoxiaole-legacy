@@ -1,0 +1,61 @@
+// 主题相关颜色
+$l-primary-color: #1673fe; // 主题颜色
+$l-color-theme: #333; // 字体颜色
+$l-button-theme-color: #1673fe; // 按钮主题颜色
+
+$l-color-button: $l-button-theme-color; // 按钮字体颜色
+// 字体颜色
+$l-color-default: #000; // 默认字体颜色（黑色）
+$l-color-gray: #666666; // 灰色字体
+$l-color-success: #28a745; // 成功状态字体颜色
+$l-color-danger: #dc3545; // 警告/危险状态字体颜色
+$l-color-warning: #ffc107; // 注意事项字体颜色
+$l-color-info: #17a2b8; // 提供信息时使用的字体颜色
+$l-color-light: #f8f9fa; // 浅色字体
+$l-color-dark: #343a40; // 深色字体
+$l-color-price: #ed6039; // 价格
+$l-color-crossed-price: #898989; // 划线价
+
+// 背景颜色
+$l-bg-default: #fff; // 默认背景颜色（白色）
+$l-bg-gray: #f4f4f4; // 灰色背景
+$l-bg-button: $l-button-theme-color; // 按钮背景颜色
+$l-bg-success: #d4edda; // 成功状态背景颜色
+$l-bg-danger: #f8d7da; // 警告/危险状态背景颜色
+$l-bg-warning: #fff3cd; // 注意事项背景颜色
+$l-bg-info: #d1ecf1; // 提供信息时使用的背景颜色
+$l-bg-light: #f8f9fa; // 浅色背景
+$l-bg-dark: #343a40; // 深色背景
+
+// 将 SCSS 变量转换为 CSS 自定义属性
+:root {
+  /* 主题相关颜色 */
+  --l-primary-color: #{$l-primary-color}; // 主题颜色
+  --l-color-theme: #{$l-color-theme}; // 字体颜色
+  --l-button-theme-color: #{$l-button-theme-color}; // 按钮主题颜色
+
+  --l-color-button: #{$l-color-button}; // 按钮字体颜色
+
+  /* 字体颜色 */
+  --l-color-default: #{$l-color-default}; // 默认字体颜色（黑色）
+  --l-color-gray: #{$l-color-gray}; // 灰色字体
+  --l-color-success: #{$l-color-success}; // 成功状态字体颜色
+  --l-color-danger: #{$l-color-danger}; // 警告/危险状态字体颜色
+  --l-color-warning: #{$l-color-warning}; // 注意事项字体颜色
+  --l-color-info: #{$l-color-info}; // 提供信息时使用的字体颜色
+  --l-color-light: #{$l-color-light}; // 浅色字体
+  --l-color-dark: #{$l-color-dark}; // 深色字体
+  --l-color-price: #{$l-color-price}; // 深色字体
+  --l-color-crossed-price: #{$l-color-crossed-price}; // 深色字体
+
+  /* 背景颜色 */
+  --l-bg-default: #{$l-bg-default}; // 默认背景颜色（白色）
+  --l-bg-gray: #{$l-bg-gray}; // 灰色背景
+  --l-bg-button: #{$l-bg-button}; // 按钮背景颜色
+  --l-bg-success: #{$l-bg-success}; // 成功状态背景颜色
+  --l-bg-danger: #{$l-bg-danger}; // 警告/危险状态背景颜色
+  --l-bg-warning: #{$l-bg-warning}; // 注意事项背景颜色
+  --l-bg-info: #{$l-bg-info}; // 提供信息时使用的背景颜色
+  --l-bg-light: #{$l-bg-light}; // 浅色背景
+  --l-bg-dark: #{$l-bg-dark}; // 深色背景
+}

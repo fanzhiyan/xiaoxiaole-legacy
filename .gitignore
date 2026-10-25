@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+unpackage/
+dist/
+
+# IDE / 系统
+.hbuilderx/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 环境（含真实后端地址，勿提交）
+.env.local
+.env.*.local
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

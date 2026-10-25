@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // 指定 ECMAScript 目标版本
+    "module": "commonjs",                     // 指定模块系统
+    "strict": true,                           // 启用所有严格类型检查选项
+    "esModuleInterop": true,                  // 启用对 ES 模块默认导出的互操作性
+    "skipLibCheck": true,                     // 跳过库文件的类型检查
+    "forceConsistentCasingInFileNames": true, // 强制文件名一致性
+    "outDir": "./dist",                       // 输出目录
+    "rootDir": "./src",                       // 输入文件的根目录
+    "resolveJsonModule": true,                // 允许导入 JSON 文件
+    "noImplicitAny": false,                    // 禁止隐式的 any 类型
+    "strictNullChecks": true,                 // 启用严格的 null 检查
+    "strictFunctionTypes": true,              // 启用严格的函数类型检查
+    "strictBindCallApply": true,              // 启用严格的 bind、call 和 apply 方法检查
+    "strictPropertyInitialization": true,     // 启用严格的属性初始化检查
+    "noImplicitThis": true,                   // 禁止隐式的 this 类型
+    "alwaysStrict": true,                     // 在每个文件中启用严格模式
+	
+    "noUnusedLocals": true,                   // 检测未使用的局部变量
+    "noUnusedParameters": true,               // 检测未使用的函数参数
+    "noImplicitReturns": false,                // 强制每个函数都有返回值
+    "noFallthroughCasesInSwitch": true,       // 禁止 switch 语句中的 case 贯穿
+    "noImplicitOverride": true,               // 覆盖父类方法时需要使用 override 关键字
+    "noUncheckedIndexedAccess": true          // 确保对象的索引访问不为 undefined 或 null
+  },
+  "include": [
+    "src/**/*"                                // 包含 src 目录下的所有文件
+  ],
+  "exclude": [
+    "node_modules",                           // 排除 node_modules 目录
+    "dist"                                    // 排除 dist 目录
+  ]
+}
