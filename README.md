@@ -1,5 +1,7 @@
 # 校小乐校园集市（开源历史版）
 
+![banner](docs/assets/banner.png)
+
 > 校园集市小程序 · uni-app + Vue3 + uview-plus · 开源历史版本（v1.x）
 >
 > 版权所有 (c) 2026 北京煜澜文化（beijingyulanwenhua）· 校小乐（xiaoxiaole）

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <pattern id="grain" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" fill="#f6f3ec"/>
+      <rect x="0" y="0" width="1" height="1" fill="#efe9df" opacity="0.55"/>
+      <rect x="2" y="2" width="1" height="1" fill="#ede6da" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <!-- 纸感底 -->
+  <rect width="1280" height="400" fill="url(#grain)"/>
+  <!-- 顶部细朱砂线 -->
+  <rect x="88" y="64" width="64" height="5" fill="#c3402a"/>
+  <!-- 主标题 宋体 -->
+  <text x="88" y="152" font-family="SimSun, 'Noto Serif SC', serif" font-size="58" fill="#17181a" letter-spacing="2">校园集市 · 论坛小程序</text>
+  <!-- 副题 -->
+  <text x="90" y="198" font-family="'Microsoft YaHei', sans-serif" font-size="21" fill="#5c6470">社区墙 / 热榜 · 跑腿 · 二手 · 圈子群聊 · 消息 · 等级钱包 —— uni-app + Vue3 历史开源版</text>
+  <!-- 右侧手绘气泡组（简笔，非发光球） -->
+  <g stroke="#1b3a66" stroke-width="2.6" fill="none" stroke-linecap="round" transform="translate(60,0)">
+    <path d="M980 96 q-6 -34 40 -34 h78 q40 0 40 34 v34 q0 34 -40 34 h-44 l-26 24 v-24 h-8 q-40 0 -40 -34 z" fill="#ffffff"/>
+    <line x1="1006" y1="92" x2="1112" y2="92" stroke="#c9d4e2" stroke-width="5"/>
+    <line x1="1006" y1="112" x2="1086" y2="112" stroke="#c9d4e2" stroke-width="5"/>
+    <circle cx="1150" cy="176" r="20" fill="#c3402a" stroke="none"/>
+    <text x="1150" y="183" text-anchor="middle" font-family="'Microsoft YaHei'" font-size="18" fill="#ffffff">赞</text>
+    <path d="M936 168 l-20 22 26 4" fill="none"/>
+  </g>
+  <!-- 底部技术栈小字 -->
+  <text x="90" y="300" font-family="Consolas, monospace" font-size="16" fill="#8a919e">uni-app · Vue3 &lt;script setup&gt; · uview-plus · 自研 shiba 组件库 40+</text>
+  <text x="90" y="330" font-family="'Microsoft YaHei', sans-serif" font-size="15" fill="#a4aab4">学习研究 / 非商业部署免费 · 商业授权 hiouba@126.com</text>
+</svg>

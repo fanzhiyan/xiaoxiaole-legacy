@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <pattern id="grain2" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" fill="#f6f3ec"/>
+      <rect x="0" y="0" width="1" height="1" fill="#efe9df" opacity="0.55"/>
+      <rect x="2" y="2" width="1" height="1" fill="#ede6da" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#grain2)"/>
+  <rect x="96" y="188" width="64" height="5" fill="#c3402a"/>
+  <text x="96" y="288" font-family="SimSun, 'Noto Serif SC', serif" font-size="62" fill="#17181a" letter-spacing="2">校园集市 · 论坛小程序</text>
+  <text x="98" y="348" font-family="'Microsoft YaHei', sans-serif" font-size="27" fill="#5c6470">社区墙 / 热榜 · 跑腿 · 二手 · 圈子群聊 · 钱包提现</text>
+  <text x="98" y="404" font-family="Consolas, monospace" font-size="21" fill="#8a919e">uni-app · Vue3 · uview-plus · 开源历史版 v1.x</text>
+  <g stroke="#1b3a66" stroke-width="3" fill="none" stroke-linecap="round" transform="translate(-380,150) scale(1.35)">
+    <path d="M980 60 q-6 -34 40 -34 h78 q40 0 40 34 v34 q0 34 -40 34 h-44 l-26 24 v-24 h-8 q-40 0 -40 -34 z" fill="#ffffff"/>
+    <line x1="1006" y1="56" x2="1112" y2="56" stroke="#c9d4e2" stroke-width="5"/>
+    <line x1="1006" y1="76" x2="1086" y2="76" stroke="#c9d4e2" stroke-width="5"/>
+    <circle cx="1150" cy="140" r="20" fill="#c3402a" stroke="none"/>
+    <text x="1150" y="147" text-anchor="middle" font-family="'Microsoft YaHei'" font-size="18" fill="#ffffff">赞</text>
+    <path d="M936 132 l-20 22 26 4" fill="none"/>
+  </g>
+</svg>
